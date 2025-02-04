@@ -58,7 +58,7 @@ function NavBer() {
     <div className="pt-4 mx-4 md:mx-8 lg:mx-0">
       <Container className="backdrop-blur bg-gray-50/10 rounded-full shadow-lg">
         <Toolbar disableGutters>
-          <img src={logo} className="h-12" alt="" />
+          <img src={logo} className="h-12 hidden md:block" alt="" />
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
