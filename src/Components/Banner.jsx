@@ -9,11 +9,11 @@ export default function Banner() {
       <Grid container spacing={4} alignItems="center">
         <Grid item xs={12} md={6}>
           <>
-            <div className="text-4xl font-bold uppercase lg:scale-y-125 text-gray-700">
-              Hi, I'm
+            <div className="text-4xl tracking-wider font-bold uppercase lg:scale-y-125 text-gray-700">
+              Hi,
               <span>
                 <Typewriter
-                  words={[" Moshiur Islam"]}
+                  words={["I'm Moshiur"]}
                   loop={true}
                   cursor
                   cursorStyle="|"
@@ -34,51 +34,56 @@ export default function Banner() {
           </p>
 
           {/* Social Links */}
-          {/* <div className="my-6">
-            <IconButton
+          <div className="flex gap-4 mb-3">
+            <a
               href="mailto:masiurislam28@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              color="primary"
-              sx={{ fontSize: 30, "&:hover": { color: "red" } }}
+              className="bg-red-400 text-white p-2 rounded-full flex items-center justify-center hover:bg-red-600 transition duration-700 hover:scale-110"
+              aria-label="Email"
             >
-              <FaEnvelope />
-            </IconButton>
-            <IconButton
+              <FaEnvelope size={24} />
+            </a>
+
+            <a
               href="https://github.com/Moshiur-15"
               target="_blank"
               rel="noopener noreferrer"
-              color="primary"
-              sx={{ fontSize: 30, "&:hover": { color: "black" } }}
+              className="bg-gray-500 text-white p-2 rounded-full flex items-center justify-center hover:bg-gray-900 transition duration-700 hover:scale-110"
+              aria-label="GitHub"
             >
-              <FaGithub />
-            </IconButton>
-            <IconButton
+              <FaGithub size={24} />
+            </a>
+
+            <a
               href="https://www.linkedin.com/in/moshiur-islam28/"
               target="_blank"
               rel="noopener noreferrer"
-              color="primary"
-              sx={{ fontSize: 30, "&:hover": { color: "#0077b5" } }}
+              className="bg-blue-500 text-white p-2 rounded-full flex items-center justify-center hover:bg-blue-700 transition duration-700 hover:scale-110"
+              aria-label="LinkedIn"
             >
-              <FaLinkedin />
-            </IconButton>
-          </div> */}
+              <FaLinkedin size={24} />
+            </a>
+          </div>
 
           {/* Resume Button */}
-          <Button
-            variant="contained"
-            color="primary"
-            target="_blank"
-            href="https://drive.google.com/file/d/11AQ6lcRpU9M5D46XoRKyBMvid343MBUV/view?usp=sharing"
-            sx={{
-              fontWeight: "bold",
-              textTransform: "uppercase",
-              padding: "10px 20px",
-              borderRadius: "4px",
-            }}
-          >
-            Open RESUME
-          </Button>
+          <div className="">
+            <Button
+              variant="contained"
+              color="primary"
+              target="_blank"
+              href="https://drive.google.com/file/d/11AQ6lcRpU9M5D46XoRKyBMvid343MBUV/view?usp=sharing"
+              sx={{
+                fontWeight: "bold",
+                textTransform: "uppercase",
+                padding: "10px 20px",
+                borderRadius: "4px",
+              }}
+              className=""
+            >
+              Open RESUME
+            </Button>
+          </div>
         </Grid>
 
         {/* Right Section (Image) */}
