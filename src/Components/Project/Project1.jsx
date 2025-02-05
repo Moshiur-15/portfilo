@@ -36,7 +36,7 @@ export default function Project1() {
           size="small"
           color="primary"
           variant="contained"
-          href="https://gamezone-details.com" // Replace with actual details link
+          href="https://gamezone-details.com"
           target="_blank"
         >
           Details
@@ -45,7 +45,7 @@ export default function Project1() {
         <Button
           size="small"
           variant="contained"
-          href="https://gamezone-live-demo.com" // Replace with actual live link
+          href="https://mcms-me.netlify.app/"
           target="_blank"
         >
           Live Demo

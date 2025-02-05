@@ -110,7 +110,7 @@ export default function ProjectDetails2() {
           Live Demo
         </a>
         <a
-          href="https://github.com/Moshiur-15/blog-client"
+          href="https://github.com/Moshiur-15/nextra-blog-client"
           target="_blank"
           rel="noopener noreferrer"
           className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-300"
@@ -118,7 +118,7 @@ export default function ProjectDetails2() {
           GitHub Client
         </a>
         <a
-          href="https://github.com/Moshiur-15/blog-server"
+          href="https://github.com/Moshiur-15/nextra-blog-server"
           target="_blank"
           rel="noopener noreferrer"
           className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-300"

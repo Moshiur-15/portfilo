@@ -97,7 +97,7 @@ export default function ProjectDetails3() {
           Live Demo
         </a>
         <a
-          href="https://github.com/Moshiur-15/Game-Review"
+          href="https://github.com/Moshiur-15/game-zone"
           target="_blank"
           rel="noopener noreferrer"
           className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-300"
